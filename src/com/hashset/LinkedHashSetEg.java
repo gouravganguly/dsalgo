@@ -12,8 +12,8 @@ public class LinkedHashSetEg {
 		LinkedHashSet<String> linkedset = new LinkedHashSet<String>();
 		
 		linkedset.add("a");
-		linkedset.add("b");
 		linkedset.add("c");
+		linkedset.add("b");
 		linkedset.add("d");
 		
 		boolean val = linkedset.add("a");
